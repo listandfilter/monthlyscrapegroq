@@ -38,6 +38,8 @@ async function runAllTasksSequentially() {
     console.log('Prompt completed!');
 
     console.log(' All tasks executed sequentially!');
+    process.exit(0);
+
   } catch (err) {
     console.error(' Error during task execution:', err);
   }
